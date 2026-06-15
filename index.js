@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
+const cors = require('cors')
 const port = 5020;
+app.use(cors())
 const videoApi = [
     {
         id: 1,
